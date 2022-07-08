@@ -1,0 +1,89 @@
+body{
+	background-color: #2A822A;
+	color:#1F3D94  ; /*color de texto*/
+}
+
+#barra a{
+	text-decoration: underline;
+	color: #10941D;
+}
+
+#barra a:hover{
+	text-decoration: underline;
+	color: #946D09;
+}
+
+#barra{/*formato de la barra*/
+	background: #000;/*color de fondo en barra*/
+	position: absolute;/*tomara todo el espacio*/
+	left: 0;/*margem superior izquierdo*/
+	top: 0;/*margen superior*/
+	display: black;
+	width: 100%;
+}
+
+#barra ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#barra li{
+	float: left;
+	display: inline;
+}
+#barra li a{
+	padding: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+#barra li a:hover{
+	background-color: green;
+	color: black;
+}
+#contenido{
+	max-width: 100%;
+	position: relative;
+	top: 80px;
+	margin: 0 auto;
+	background-color: #940131;
+	padding: 2%;
+}
+
+#contenido header{
+	height: 120px;
+	padding: 10 px 20 px;
+	background-color: black;
+	border-radius: 1em;
+}
+
+#principal{
+	width: 35%;
+	float: left;
+	padding: 4px;
+}
+
+#secundaria{
+	width: 35%;
+	float: left;
+	padding: 4px;
+}
+
+#contenido aside{
+	width: 20%;/*ancho*/
+	float: left;/*ubicar a la izq*/
+	padding: 4px;/*espaciado*/
+}
+#contenido footer{
+	clear: both;
+	width: 100%;
+	background-color: #777B85;
+	height: 100px;
+	border-radius: 1em;
+}
+#logo xbox{
+text-align: center;
+background-size: cover;
+background-position: right;
+}
